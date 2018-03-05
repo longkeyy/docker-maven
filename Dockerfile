@@ -1,4 +1,7 @@
 FROM maven:alpine
+
+MAINTAINER longkeyy <longkeyy@solr.cc>
+
 RUN apk add --no-cache \
         ca-certificates \
         curl \
